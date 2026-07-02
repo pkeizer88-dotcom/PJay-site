@@ -1,103 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>PJay City Treasures</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background: #f5f4ef;
-            color: #333;
-        }
-
-        .hero {
-            background: #6ec1e4;
-            color: white;
-            text-align: center;
-            padding: 80px 20px;
-        }
-
-        .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-        }
-
-        .section {
-            max-width: 1000px;
-            margin: auto;
-            padding: 50px 20px;
-        }
-
-        .card {
-            background: white;
-            padding: 25px;
-            border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            margin-top: 20px;
-        }
-        
-        .logo {
-            max-width: 500px;
-            width: 80%;
-            margin-bottom: 20px;
-        }
-        .hero-image {
-    padding: 0;
-    background: white;
-}
-.hero-image img {
-    display: block;
-    width: 100%;
-    max-width: 1600px;
-    margin: 0 auto;
-}
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PJay City Treasures</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-<div class="hero hero-image">
-    <img src="images/hero-banner.png" alt="PJay City Treasures Hero Banner">
-</div>
+  <header class="site-header">
+    <img src="images/pjay-logo.png" alt="PJay City Treasures Logo" class="logo" />
+  </header>
 
-<div class="section">
-    <h2 style="text-align:center;">City Treasure Collection</h2>
-    <p style="text-align:center; max-width:700px; margin:auto;">
-        Every city tells a story. Each PJay City Treasure includes a collectible character,
-        city-themed charm, keepsake card, and premium gift box inspired by amazing places around the world.
-    </p>
-
-    <div class="card" style="text-align:center;">
-        <img src="images/pjay-charm-ny-to.png"
-             alt="PJay City Treasure Examples"
-             style="width:100%; max-width:1200px; border-radius:12px;">
-    </div>
-</div>
-
-<div class="section">
-    <div class="card">
-        <h2>The Idea</h2>
-        <p>
-            PJay is a new collectible toy brand that celebrates the world's greatest cities.
-            Each city has its own unique treasures, and we're excited to bring them to life in a fun and creative way.
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">PJay City Treasures</p>
+        <h1>Tiny Treasures. Big Adventures.</h1>
+        <h2>Every city has a story.</h2>
+        <p class="intro">
+          Meet PJay, a collectible city-inspired charm series made for backpacks,
+          keychains, travel memories, and little adventurers with big imaginations.
         </p>
-    </div>
+        <a href="#next-city" class="button">Where should PJay go next?</a>
+      </div>
 
-    <div class="card">
-        <h2>Meet Paige</h2>
-        <p>
-            PJay was inspired by Paige's creativity and imagination.
-            Together we're exploring what a new collectible toy brand could look like.
-        </p>
-    </div>
+      <div class="hero-image">
+        <img src="images/pjay-charm-ny-to.png" alt="PJay city charm concept" />
+      </div>
+    </section>
 
-    <div class="card">
-        <h2>Coming Soon</h2>
-        <p>
-            Toronto, New York, Paris, London and many more city treasures.
-        </p>
-    </div>
-</div>
+    <section class="story">
+      <h2>A tiny keepsake for every adventure</h2>
+      <p>
+        Each PJay charm celebrates a different city through colour, landmarks,
+        personality, and play. From Toronto to New York and beyond, every charm
+        is designed to feel like a little treasure from somewhere special.
+      </p>
+    </section>
+
+    <section class="cards">
+      <div class="card">
+        <h3>Collectible</h3>
+        <p>Small, fun, and easy to clip onto a bag, backpack, or keychain.</p>
+      </div>
+
+      <div class="card">
+        <h3>City-inspired</h3>
+        <p>Each design tells a story through iconic places, colours, and local charm.</p>
+      </div>
+
+      <div class="card">
+        <h3>Made for adventures</h3>
+        <p>A playful way to remember where you have been and dream about where to go next.</p>
+      </div>
+    </section>
+
+    <section id="next-city" class="next-city">
+      <h2>Where should PJay go next?</h2>
+      <p>
+        Toronto and New York are just the beginning. Which city should inspire the next PJay treasure?
+      </p>
+      <button>Vote coming soon</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 PJay City Treasures</p>
+  </footer>
 
 </body>
 </html>
